@@ -8,7 +8,7 @@ function TodoList() {
         if(!todo.text)
             return;
 
-        const newTodos = [todo,...todos];
+        const newTodos = [todo,...todo];
     }
   return (
     <div>
